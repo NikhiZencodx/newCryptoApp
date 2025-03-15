@@ -4,13 +4,6 @@ export default function Header() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <header className="relative min-h-screen flex items-center">
-        {/* Background decorative elements */}
-        {/* <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 left-20 w-24 h-24 rounded-full bg-[#FF7E5F] blur-2xl opacity-20" />
-          <div className="absolute top-40 right-1/4 w-32 h-32 rounded-full bg-[#7B61FF] blur-3xl opacity-20" />
-          <div className="absolute bottom-1/3 left-1/3 w-40 h-40 rounded-full bg-[#00FFD1] blur-3xl opacity-10" />
-          <div className="absolute -bottom-10 right-20 w-80 h-80 rounded-full bg-[#7B61FF] blur-3xl opacity-10" />
-        </div> */}
 
         {/* Main content */}
         <div className="max-w-[1440px] px-6 md:px-8 lg:px-[18px] mx-auto w-full">

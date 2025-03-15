@@ -29,13 +29,13 @@ export default function HomeFeatures() {
     {
       name: "Bitcoin",
       symbol: "BTC",
-      icon: "/icons/crypto/btc.svg",
+      icon: "/icons/bitcoin.png",
       color: "#F7931A"
     },
     {
       name: "Ethereum",
       symbol: "ETH",
-      icon: "/icons/crypto/eth.svg",
+      icon: "/icons/ethereum.png",
       color: "#627EEA"
     },
     {
@@ -53,7 +53,7 @@ export default function HomeFeatures() {
     {
       name: "BNB",
       symbol: "BNB",
-      icon: "/icons/crypto/bnb.svg",
+      icon: "/icons/binance.png",
       color: "#F0B90B"
     },
     {
@@ -77,7 +77,7 @@ export default function HomeFeatures() {
     {
       name: "Polygon",
       symbol: "MATIC",
-      icon: "/icons/crypto/matic.svg",
+      icon: "/icons/polygon.png",
       color: "#8247E5"
     }
   ];
