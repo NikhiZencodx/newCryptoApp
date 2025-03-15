@@ -26,13 +26,13 @@ export default function BasicPageLayout({ title, subtitle, content, cta }) {
                   {section.items.map((item, idx) => (
                     <div key={idx} className="bg-[#2a2b33]/50 rounded-lg p-5 hover:bg-[#2a2b33]/70 transition-colors">
                       <div className="flex items-center gap-4 mb-3">
-                        {item.icon && (
+                        {/* {item.icon && (
                           <div className="w-10 h-10 rounded-full bg-gradient-to-r from-[#18c8ff] to-[#933ffe] flex items-center justify-center">
                             <div className="w-8 h-8 rounded-full bg-[#1a1b23] flex items-center justify-center">
                               <Image src={item.icon} alt={item.title} width={16} height={16} />
                             </div>
                           </div>
-                        )}
+                        )} */}
                         <h3 className="text-lg font-bold text-white">{item.title}</h3>
                       </div>
                       <p className="text-[#babcd0]">{item.description}</p>

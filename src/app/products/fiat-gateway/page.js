@@ -12,7 +12,7 @@ export default function FiatGatewayPage() {
     {
       name: "UPI",
       description: "Instant deposits using UPI apps like Google Pay, PhonePe, and BHIM",
-      icon: "/icons/payment/upi.svg",
+      icon: "/icons/wallet.png",
       depositTime: "Instant",
       withdrawalTime: "1-3 hours",
       depositFee: "Free",
@@ -21,7 +21,7 @@ export default function FiatGatewayPage() {
     {
       name: "IMPS/NEFT/RTGS",
       description: "Bank transfers using IMPS, NEFT, or RTGS from any Indian bank account",
-      icon: "/icons/payment/bank.svg",
+      icon: "/icons/cash.png",
       depositTime: "1-3 hours",
       withdrawalTime: "1-24 hours",
       depositFee: "Free",
@@ -30,7 +30,7 @@ export default function FiatGatewayPage() {
     {
       name: "Net Banking",
       description: "Direct transfers from your bank account using net banking",
-      icon: "/icons/payment/netbanking.svg",
+      icon: "/icons/cash.png",
       depositTime: "Instant to 3 hours",
       withdrawalTime: "1-24 hours",
       depositFee: "Free",
@@ -39,7 +39,7 @@ export default function FiatGatewayPage() {
     {
       name: "Debit/Credit Card",
       description: "Deposit funds using Visa, Mastercard, or RuPay debit/credit cards",
-      icon: "/icons/payment/card.svg",
+      icon: "/icons/liquidity.png",
       depositTime: "Instant",
       withdrawalTime: "N/A",
       depositFee: "1.5%",
@@ -51,22 +51,22 @@ export default function FiatGatewayPage() {
     {
       title: "INR Wallet",
       description: "Dedicated INR wallet to store your Indian Rupees securely on the platform",
-      icon: "/icons/fiat/wallet.svg"
+      icon: "/icons/rupee.png"
     },
     {
       title: "Instant Buy/Sell",
       description: "Instantly buy or sell cryptocurrencies using your INR balance",
-      icon: "/icons/fiat/exchange.svg"
+      icon: "/icons/rupee.png"
     },
     {
       title: "Auto-KYC",
       description: "Automated KYC verification for seamless INR deposits and withdrawals",
-      icon: "/icons/fiat/kyc.svg"
+      icon: "/icons/rupee.png"
     },
     {
       title: "Recurring Purchases",
       description: "Set up automatic recurring purchases of cryptocurrencies using INR",
-      icon: "/icons/fiat/recurring.svg"
+      icon: "/icons/rupee.png"
     }
   ];
 

@@ -12,32 +12,32 @@ export default function TradingFeaturesPage() {
     {
       title: "Spot Trading",
       description: "Buy and sell cryptocurrencies at current market prices with low fees and high liquidity.",
-      icon: "/icons/trade/spot.svg"
+      icon: "/icons/stock.png"
     },
     {
       title: "Instant Swap",
       description: "Exchange one cryptocurrency for another instantly without placing orders on the order book.",
-      icon: "/icons/trade/swap.svg"
+      icon: "/icons/left-and-right-arrows.png"
     },
     {
       title: "P2P Trading",
       description: "Trade directly with other users using preferred payment methods with our secure escrow service.",
-      icon: "/icons/trade/p2p.svg"
+      icon: "/icons/stock.png"
     },
     {
       title: "Liquidity Pool Access",
       description: "Participate in liquidity pools and earn passive income through yield farming and staking.",
-      icon: "/icons/trade/liquidity.svg"
+      icon: "/icons/liquidity.png"
     },
     {
       title: "Advanced Order Types",
       description: "Place limit, market, stop-limit, and OCO (One Cancels the Other) orders for precise trading.",
-      icon: "/icons/trade/orders.svg"
+      icon: "/icons/stock.png"
     },
     {
       title: "Trading Bots",
       description: "Automate your trading strategies with our user-friendly trading bots and API access.",
-      icon: "/icons/trade/bots.svg"
+      icon: "/icons/liquidity.png"
     }
   ];
 
@@ -45,22 +45,22 @@ export default function TradingFeaturesPage() {
     {
       title: "Advanced Charts",
       description: "Professional-grade TradingView charts with multiple timeframes and over 100 indicators.",
-      image: "/images/products/charts.jpg"
+      image: "https://cdn.pixabay.com/photo/2016/12/13/22/15/chart-1905225_1280.jpg"
     },
     {
       title: "Market Data",
       description: "Real-time market data, order book depth, and trade history for informed decision making.",
-      image: "/images/products/market-data.jpg"
+      image: "https://cdn.pixabay.com/photo/2016/12/13/22/15/chart-1905224_1280.jpg"
     },
     {
       title: "Portfolio Tracker",
       description: "Track your portfolio performance, profit/loss, and asset allocation in real-time.",
-      image: "/images/products/portfolio.jpg"
+      image: "https://cdn.pixabay.com/photo/2015/07/11/00/39/chart-840333_1280.jpg"
     },
     {
       title: "Price Alerts",
       description: "Set custom price alerts and notifications for your favorite cryptocurrencies.",
-      image: "/images/products/alerts.jpg"
+      image: "https://cdn.pixabay.com/photo/2024/06/18/03/40/finance-8836903_1280.jpg"
     }
   ];
 

@@ -13,63 +13,63 @@ export default function CryptoAssetsPage() {
       name: "Bitcoin",
       symbol: "BTC",
       description: "The original cryptocurrency and the largest by market capitalization.",
-      icon: "/icons/crypto/btc.svg",
+      icon: "/icons/bitcoin.png",
       color: "#F7931A"
     },
     {
       name: "Ethereum",
       symbol: "ETH",
       description: "A decentralized platform that enables smart contracts and dApps.",
-      icon: "/icons/crypto/eth.svg",
+      icon: "/icons/ethereum.png",
       color: "#627EEA"
     },
     {
       name: "Tether",
       symbol: "USDT",
       description: "A stablecoin pegged to the US dollar, providing stability in the volatile crypto market.",
-      icon: "/icons/crypto/usdt.svg",
+      icon: "/icons/tether.png",
       color: "#26A17B"
     },
     {
       name: "USD Coin",
       symbol: "USDC",
       description: "A regulated stablecoin backed by US dollars held in reserve.",
-      icon: "/icons/crypto/usdc.svg",
+      icon: "/icons/dogecoin.png",
       color: "#2775CA"
     },
     {
       name: "BNB",
       symbol: "BNB",
       description: "Native token of the Binance ecosystem with multiple use cases.",
-      icon: "/icons/crypto/bnb.svg",
+      icon: "/icons/binance.png",
       color: "#F0B90B"
     },
     {
       name: "Solana",
       symbol: "SOL",
       description: "High-performance blockchain supporting fast, secure, and scalable decentralized apps.",
-      icon: "/icons/crypto/sol.svg",
+      icon: "/icons/solana.png",
       color: "#00FFA3"
     },
     {
       name: "Avalanche",
       symbol: "AVAX",
       description: "Platform for launching decentralized applications with high throughput.",
-      icon: "/icons/crypto/avax.svg",
+      icon: "/icons/avalanche.png",
       color: "#E84142"
     },
     {
       name: "Cardano",
       symbol: "ADA",
       description: "Proof-of-stake blockchain platform built with research-driven approach.",
-      icon: "/icons/crypto/ada.svg",
+      icon: "/icons/cardano.png",
       color: "#0033AD"
     },
     {
       name: "Polygon",
       symbol: "MATIC",
       description: "Layer 2 scaling solution for Ethereum that enables faster and cheaper transactions.",
-      icon: "/icons/crypto/matic.svg",
+      icon: "/icons/polygon.png",
       color: "#8247E5"
     }
   ];

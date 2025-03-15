@@ -19,9 +19,9 @@ export default function Footer() {
       title: "Support",
       links: [
         { label: "Help Center", href: "/support" },
-        { label: "FAQs", href: "/support/faq" },
-        { label: "Security", href: "/security/kyc" },
-        { label: "Status", href: "/status" }
+        { label: "FAQs", href: "/support" },
+        { label: "Security", href: "/support" },
+        { label: "Status", href: "/support" }
       ]
     },
     {
