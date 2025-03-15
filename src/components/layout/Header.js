@@ -9,7 +9,7 @@ export default function Header() {
         <div className="max-w-[1440px] px-6 md:px-8 lg:px-[18px] mx-auto w-full">
           <div className="relative z-10 max-w-[900px] mx-auto text-center">
             <h1 className="text-[25px] md:text-[40px] lg:text-[60px] text-white font-[900] leading-[1.1] mb-6 sm:mb-8">
-              RVC Infinity - India's Compliant Crypto Trading Ecosystem
+              RVC Infinity - India&apos;s Compliant Crypto Trading Ecosystem
             </h1>
             <p className="text-[#babcd0] text-lg sm:text-xl md:text-2xl font-normal leading-[1.4] mb-10 sm:mb-12 lg:mb-16 max-w-[800px] mx-auto">
               Seamless crypto-to-crypto and crypto-to-INR trading with full regulatory compliance

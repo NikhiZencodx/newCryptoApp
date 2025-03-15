@@ -27,7 +27,7 @@ export default function Footer() {
           {/* Left Column */}
           <div className="lg:pr-8">
             <p className="text-base text-[#babcd0] font-normal leading-[150%] mb-6">
-              CoinFlip, the world's leading bitcoin ATM operator, makes it so flipping easy to buy and sell bitcoin via cash, card, or bank transfer.
+              CoinFlip, the world&apos;s leading bitcoin ATM operator, makes it so flipping easy to buy and sell bitcoin via cash, card, or bank transfer.
             </p>
             <p className="text-base text-[#babcd0] font-normal leading-[150%] mb-6">
               Sign up to get the latest in CoinFlip news, discounts, and more.
