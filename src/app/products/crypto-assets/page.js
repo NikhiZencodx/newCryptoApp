@@ -171,7 +171,7 @@ export default function CryptoAssetsPage() {
                 </div>
               </div>
               <h3 className="text-white font-bold mb-2">Technical Review</h3>
-              <p className="text-[#babcd0]">Thorough assessment of the asset's technical architecture and security</p>
+              <p className="text-[#babcd0]">Thorough assessment of the assets technical architecture and security</p>
             </div>
             
             <div className="flex flex-col items-center text-center">
