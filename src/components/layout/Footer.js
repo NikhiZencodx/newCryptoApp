@@ -56,7 +56,7 @@ export default function Footer() {
             </form>
             
             <p className="text-sm text-[#babcd0] font-normal">
-              &copy; 2025 Zencodx - All rights reserved.
+              &copy; 2025 RVC Infinity - All rights reserved.
             </p>
           </div>
 

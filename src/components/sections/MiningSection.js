@@ -10,7 +10,7 @@ export default function MiningSection() {
               A crypto mining platform that invest in you.
             </h2>
             <p className="text-[#babcd0] text-md font-normal leading-[150%] font-poppins mb-8">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus qui ipsum libero, porro accusamus possimus.
+              Mine smarter, earn faster. RVC Infinity empowers you with secure, efficient, and profitable crypto mining solutions. Our platform is designed to help you maximize your earnings and grow your digital asset portfolio.
             </p>
             <Link 
               href="#" 

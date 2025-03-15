@@ -23,7 +23,7 @@ export default function SupportSection() {
               24/7 access to full service customer support
             </h2>
             <p className="text-[#babcd0] text-base font-normal leading-[150%] font-poppins mb-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores modi natus quod aspernatur dicta?
+              At RVC Infinity, our 24/7 expert support ensures seamless and secure crypto experiences. Whether you need help with trading, transactions, or security, our team is always ready to assist. Trade with confidence, knowing we&apos;ve got your back anytime, anywhere.
             </p>
             <Link 
               href="#" 

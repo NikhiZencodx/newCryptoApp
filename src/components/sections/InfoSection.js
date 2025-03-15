@@ -1,26 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
 const infoCards = [
   {
     icon: '/icons/create_icon.svg',
     title: 'Create',
-    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente reprehenderit optio laborum ipsa veritatis! Asperiores?',
+    text: 'Join RVC Infinity in just a few steps and unlock secure, fast, and seamless crypto transactions.',
     linkText: 'Get Started'
   },
   {
     icon: '/icons/login_icon.svg',
     title: 'Login',
-    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente reprehenderit optio laborum ipsa veritatis! Asperiores?',
+    text: 'Access your RVC Infinity account anytime and manage your crypto assets with confidence and ease.',
     linkText: 'Find an ATM'
   },
   {
     icon: '/icons/manage_icon.svg',
     title: 'Manage',
-    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente reprehenderit optio laborum ipsa veritatis! Asperiores?',
+    text: 'Stay in full control of your crypto portfolio with real-time insights, secure transactions, and 24/7 support.',
     linkText: 'Get Started'
   }
 ];
+
 
 export default function InfoSection() {
   return (

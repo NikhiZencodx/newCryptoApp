@@ -12,7 +12,7 @@ export default function SecureInvestSection() {
               Take your first step into safe, secure crypto investing
             </h2>
             <p className="text-[#babcd0] text-base font-normal leading-[150%] font-poppins mb-8">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit, laudantium voluptatem incidunt, aperiam reiciendis corporis, exercitationem abcaecati ut cum excepturi! Ea, alias dolores.
+              Invest with confidence on RVC Infinity. Our secure platform offers seamless transactions, advanced security, and expert support to help you grow your crypto portfolio safely.
             </p>
             <Link 
               href="#" 

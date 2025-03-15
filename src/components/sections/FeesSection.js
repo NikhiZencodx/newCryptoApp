@@ -49,7 +49,7 @@ export default function FeesSection() {
               Buy and sell with the lowest fees in the industry
             </h2>
             <p className="text-[#babcd0] text-base font-normal leading-[150%] font-poppins">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, pariatur sit. Id nisi perspiciatis eveniet?
+              Maximize your profits with RVC Infinity’s ultra-low trading fees. Secure, fast, and cost-effective crypto transactions at your fingertips.
             </p>
             <Link href="#" className="inline-flex items-center group">
               <span className="text-[#b982ff] text-base font-poppins transition-colors duration-300 group-hover:text-white">

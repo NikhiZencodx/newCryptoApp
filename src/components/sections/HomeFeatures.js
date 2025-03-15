@@ -6,22 +6,22 @@ export default function HomeFeatures() {
     {
       title: "Comprehensive Asset Portfolio",
       description: "Access a wide range of cryptocurrencies and digital assets all in one platform",
-      icon: "/icons/portfolio.svg"
+      icon: "/icons/wallet.png"
     },
     {
       title: "Secure Trading Environment",
       description: "Advanced security measures to protect your assets and transactions",
-      icon: "/icons/security.svg"
+      icon: "/icons/shield.png"
     },
     {
       title: "Regulatory Compliant",
       description: "Operating within India's regulatory framework for cryptocurrency exchanges",
-      icon: "/icons/compliance.svg"
+      icon: "/icons/rules.png"
     },
     {
       title: "INR Integration",
       description: "Seamless trading between crypto and Indian Rupee with multiple payment options",
-      icon: "/icons/inr.svg"
+      icon: "/icons/rupee.png"
     }
   ];
 
@@ -41,13 +41,13 @@ export default function HomeFeatures() {
     {
       name: "Tether",
       symbol: "USDT",
-      icon: "/icons/crypto/usdt.svg",
+      icon: "/icons/tether.png",
       color: "#26A17B"
     },
     {
       name: "USD Coin",
       symbol: "USDC",
-      icon: "/icons/crypto/usdc.svg",
+      icon: "/icons/image.png",
       color: "#2775CA"
     },
     {
@@ -59,19 +59,19 @@ export default function HomeFeatures() {
     {
       name: "Solana",
       symbol: "SOL",
-      icon: "/icons/crypto/sol.svg",
+      icon: "/icons/solana.png",
       color: "#00FFA3"
     },
     {
       name: "Avalanche",
       symbol: "AVAX",
-      icon: "/icons/crypto/avax.svg",
+      icon: "/icons/avalanche.png",
       color: "#E84142"
     },
     {
       name: "Cardano",
       symbol: "ADA",
-      icon: "/icons/crypto/ada.svg",
+      icon: "/icons/cardano.png",
       color: "#0033AD"
     },
     {
@@ -79,6 +79,12 @@ export default function HomeFeatures() {
       symbol: "MATIC",
       icon: "/icons/polygon.png",
       color: "#8247E5"
+    },
+    {
+      name: "Dogecoin",
+      symbol: "DOGE",
+      icon: "/icons/dogecoin.png",
+      color: "#F0B90B"
     }
   ];
 
@@ -86,27 +92,27 @@ export default function HomeFeatures() {
     {
       title: "Spot Trading",
       description: "Buy and sell cryptocurrencies at current market prices",
-      icon: "/icons/trade/spot.svg"
+      icon: "/icons/stock.png"
     },
     {
       title: "Instant Swap",
       description: "Exchange one cryptocurrency for another instantly",
-      icon: "/icons/trade/swap.svg"
+      icon: "/icons/left-and-right-arrows.png"
     },
     {
       title: "Fiat Gateway",
       description: "Deposit and withdraw using Indian Rupee (INR)",
-      icon: "/icons/trade/fiat.svg"
+      icon: "/icons/cash.png"
     },
     {
       title: "P2P Trading",
       description: "Trade directly with other users using preferred payment methods",
-      icon: "/icons/trade/p2p.svg"
+      icon: "/icons/gateway.png"
     },
     {
       title: "Liquidity Pool Access",
       description: "Participate in liquidity pools and earn passive income",
-      icon: "/icons/trade/liquidity.svg"
+      icon: "/icons/liquidity.png"
     }
   ];
 
