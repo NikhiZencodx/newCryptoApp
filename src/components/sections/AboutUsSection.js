@@ -68,7 +68,7 @@ export default function AboutUsSection() {
                 </div>
               </div>
               <Link 
-                href="http://rvcinfinity.com" 
+                href="https://rvcinfinity.com" 
                 target="_blank"
                 rel="noopener noreferrer" 
                 className="inline-flex h-12 px-8 items-center justify-center rounded-lg bg-gradient-to-r from-[#18c8ff] to-[#933ffe] text-white font-semibold hover:opacity-90 transition-all duration-300"
@@ -79,7 +79,7 @@ export default function AboutUsSection() {
             <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-[#18c8ff]/20 to-[#933ffe]/20"></div>
               <Image 
-                src="/images/about-hero.jpg" // Replace with actual image
+                src="https://cdn.pixabay.com/photo/2016/12/13/22/15/chart-1905224_1280.jpg" // Replace with actual image
                 alt="RVC Infinity Office" 
                 fill
                 className="object-cover"
@@ -182,44 +182,7 @@ export default function AboutUsSection() {
       </section>
 
       {/* Compliance Banner */}
-      <section className="bg-gradient-to-r from-[#18c8ff]/10 to-[#933ffe]/10 py-12 backdrop-blur-sm">
-        <div className="max-w-[1440px] px-6 md:px-8 lg:px-[18px] mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#18c8ff] to-[#933ffe] flex items-center justify-center flex-shrink-0">
-                <div className="w-10 h-10 rounded-full bg-[#1a1b23] flex items-center justify-center">
-                  <Image src="/icons/verified.svg" alt="Verified" width={20} height={20} />
-                </div>
-              </div>
-              <div>
-                <h3 className="text-white font-bold text-lg">Registered with FIU-IND</h3>
-                <p className="text-[#babcd0]">REID: VA00058135</p>
-              </div>
-            </div>
-            
-            <div className="h-10 w-px bg-[#2a2b33] hidden md:block"></div>
-            
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#18c8ff] to-[#933ffe] flex items-center justify-center flex-shrink-0">
-                <div className="w-10 h-10 rounded-full bg-[#1a1b23] flex items-center justify-center">
-                  <Image src="/icons/shield.svg" alt="Shield" width={20} height={20} />
-                </div>
-              </div>
-              <div>
-                <h3 className="text-white font-bold text-lg">Full AML/KYC Compliance</h3>
-                <p className="text-[#babcd0]">Adhering to all regulatory requirements</p>
-              </div>
-            </div>
-            
-            <Link 
-              href="/compliance" 
-              className="px-6 py-3 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/5 transition-all duration-300 whitespace-nowrap"
-            >
-              Learn More
-            </Link>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }
