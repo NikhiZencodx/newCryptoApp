@@ -13,22 +13,53 @@ export default function AuthForm({ mode = 'login' }) {
     name: ''
   });
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  // Dummy credentials for demo
+  const dummyCredentials = {
+    email: 'rvcinfinity@123.com',
+    password: 'rvcinfinity123'
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    // Clear error when user types
+    if (error) setError('');
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
     
-    // Simulate API call
-    setTimeout(() => {
-      setLoading(false);
-      // Redirect to dashboard after successful auth
-      router.push('/dashboard');
-    }, 1500);
+    if (mode === 'login') {
+      // Validate against dummy credentials
+      if (formData.email === dummyCredentials.email && formData.password === dummyCredentials.password) {
+        // Successful login
+        setTimeout(() => {
+          setLoading(false);
+          router.push('/dashboard');
+        }, 1500);
+      } else {
+        // Failed login
+        setTimeout(() => {
+          setLoading(false);
+          setError('Invalid email or password.');
+        }, 1000);
+      }
+    } else {
+      // For register mode, just simulate success
+      if (formData.password !== formData.confirmPassword) {
+        setLoading(false);
+        setError('Passwords do not match');
+        return;
+      }
+      
+      setTimeout(() => {
+        setLoading(false);
+        router.push('/dashboard');
+      }, 1500);
+    }
   };
 
   return (
@@ -53,7 +84,18 @@ export default function AuthForm({ mode = 'login' }) {
                 ? 'Sign in to access your account' 
                 : 'Join RVC Infinity crypto trading platform'}
             </p>
+            {/* {mode === 'login' && (
+              <p className="text-xs text-[#babcd0] mt-2">
+                Demo credentials: demo@example.com / password123
+              </p>
+            )} */}
           </div>
+
+          {error && (
+            <div className="mb-4 p-3 bg-red-500/20 border border-red-500/50 rounded-lg text-red-200 text-sm">
+              {error}
+            </div>
+          )}
 
           <form onSubmit={handleSubmit} className="space-y-4">
             {mode === 'register' && (
