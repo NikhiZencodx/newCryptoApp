@@ -51,7 +51,7 @@ export default function AuthForm({ mode = 'login' }) {
       // For register mode, just simulate success
       if (formData.password !== formData.confirmPassword) {
         setLoading(false);
-        setError('Passwords do not match');
+        setError('Passwords do not match.');
         return;
       }
       
